@@ -103,3 +103,8 @@ if (window.innerWidth >= 760) {
     distance: "400px",
   });
 }
+
+window.onload = () => {
+  document.querySelector(".loading-wrapper").classList.add("hidden");
+  document.body.classList.remove("overflow-hidden");
+};
